@@ -5,6 +5,7 @@
 tasks:
   - name: Avo
     init: |
+      rvm install "ruby-3.2.2"
       bundle install &&
       yarn &&
       bin/setup &&
